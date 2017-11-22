@@ -1,18 +1,18 @@
 {
-  "name": "version-util-cli",
-  "version": "0.0.2",
-  "description": "CLI for version-util",
-  "main": "index.js",
-  "bin": {
-    "versionutil": "./index.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "JEI",
-  "license": "ISC",
-  "dependencies": {
-    "commander": "^2.10.0",
-    "version-util": "git+https://github.com/GenusAS/version-util.git"
-  }
+	"name": "version-util-cli",
+	"version": "1.0.0",
+	"description": "CLI for version-util",
+	"main": "index.js",
+	"bin": {
+		"versionutil": "./index.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "JEI",
+	"license": "ISC",
+	"dependencies": {
+		"commander": "^2.10.0",
+		"version-util": "git+https://github.com/Genusbiz/version-util.git#"
+	}
 }
