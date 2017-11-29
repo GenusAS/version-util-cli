@@ -87,7 +87,7 @@ program
 					})
 				} else {
 
-					console.log(version)
+					console.log("New version number: " + version)
 				}
 			})
 			.catch(function (err) {
